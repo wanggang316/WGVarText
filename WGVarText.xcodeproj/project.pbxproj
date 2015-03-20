@@ -14,6 +14,7 @@
 		D68EB8201ABBC11700EA1CDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68EB81F1ABBC11700EA1CDA /* Images.xcassets */; };
 		D68EB8231ABBC11700EA1CDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D68EB8211ABBC11700EA1CDA /* LaunchScreen.xib */; };
 		D68EB82F1ABBC11700EA1CDA /* WGVarTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D68EB82E1ABBC11700EA1CDA /* WGVarTextTests.m */; };
+		D68EB8441ABBE71F00EA1CDA /* UILabel+DynamicHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = D68EB8431ABBE71F00EA1CDA /* UILabel+DynamicHeight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D68EB8281ABBC11700EA1CDA /* WGVarTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGVarTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68EB82D1ABBC11700EA1CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D68EB82E1ABBC11700EA1CDA /* WGVarTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGVarTextTests.m; sourceTree = "<group>"; };
+		D68EB8421ABBE71F00EA1CDA /* UILabel+DynamicHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DynamicHeight.h"; sourceTree = "<group>"; };
+		D68EB8431ABBE71F00EA1CDA /* UILabel+DynamicHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DynamicHeight.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		D68EB8111ABBC11700EA1CDA /* WGVarText */ = {
 			isa = PBXGroup;
 			children = (
+				D68EB8411ABBE71F00EA1CDA /* category */,
 				D68EB8161ABBC11700EA1CDA /* AppDelegate.h */,
 				D68EB8171ABBC11700EA1CDA /* AppDelegate.m */,
 				D68EB8191ABBC11700EA1CDA /* ViewController.h */,
@@ -117,6 +121,15 @@
 				D68EB82D1ABBC11700EA1CDA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D68EB8411ABBE71F00EA1CDA /* category */ = {
+			isa = PBXGroup;
+			children = (
+				D68EB8421ABBE71F00EA1CDA /* UILabel+DynamicHeight.h */,
+				D68EB8431ABBE71F00EA1CDA /* UILabel+DynamicHeight.m */,
+			);
+			path = category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D68EB81B1ABBC11700EA1CDA /* ViewController.m in Sources */,
+				D68EB8441ABBE71F00EA1CDA /* UILabel+DynamicHeight.m in Sources */,
 				D68EB8181ABBC11700EA1CDA /* AppDelegate.m in Sources */,
 				D68EB8151ABBC11700EA1CDA /* main.m in Sources */,
 			);
@@ -412,6 +426,7 @@
 				D68EB8341ABBC11700EA1CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D68EB8351ABBC11700EA1CDA /* Build configuration list for PBXNativeTarget "WGVarTextTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				D68EB8371ABBC11700EA1CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
